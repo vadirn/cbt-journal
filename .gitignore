@@ -1,0 +1,103 @@
+# КПТ-дневник - личные данные и системные файлы
+
+# ВАЖНО: Личные записи - НЕ коммитить!
+записи/
+паттерны/
+
+# Исключение: можно добавить примеры (если захотите)
+# !записи/example_*.md
+# !паттерны/example_*.md
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Временные файлы
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# Логи
+*.log
+logs/
+
+# Конфиденциальные данные (на всякий случай)
+*.key
+*.pem
+*.cert
+secrets/
+.env
+.env.local
+
+# Node (если будут скрипты)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (если будут скрипты)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Архивы (бэкапы)
+*.zip
+*.tar.gz
+*.rar
+*.7z
